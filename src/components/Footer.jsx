@@ -14,8 +14,10 @@ function Footer() {
         </Reveal>
         <div
           className="absolute w-full h-[95%] bg-contain bg-no-repeat left-0 -bottom-[95%]"
-          style={{ backgroundImage: `url(${footerBg})` }}
-        ></div>
+          // style={{ backgroundImage: `url(${footerBg})` }}
+        >
+          <img src={footerBg} alt="" />
+        </div>
       </div>
       <div className="w-full flex flex-col bg-bgHero animate-bgGradient bg-gradient-to-tr from-lgreen to-lpurple">
         <div className=" flex flex-row w-full justify-end pl-[10%] pr-[20%] items-center h-[40vh]">
