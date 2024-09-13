@@ -2,6 +2,7 @@ import ft1 from "../assets/ft1.png";
 import ft2 from "../assets/ft2.png";
 import ft3 from "../assets/ft3.png";
 // import ftbg from "../assets/x-logo.svg";
+
 import { Reveal } from "../utils/Reveal";
 
 const featureData = [
