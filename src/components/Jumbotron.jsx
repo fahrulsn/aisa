@@ -12,12 +12,12 @@ function Jumbotron() {
     <div
       className={`w-full h-screen bg-bgHero bg-gradient-to-tr from-lgreen to-lpurple flex flex-col gap-4 sm:gap-1 justify-center sm:justify-start sm:pt-24 sm:items-center px-8 sm:px-24 text-white animate-bgGradient `}
     >
-      <div
+      {/* <div
         className="w-full h-full absolute bottom-0 left-0 z-0 flex items-end"
         // style={{ backgroundImage: `url(${herobg})` }}
       >
         <img className="z-0" src={herobg} alt="" />
-      </div>
+      </div> */}
       <img
         src={logo}
         alt="logo"

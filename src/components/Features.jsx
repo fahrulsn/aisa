@@ -2,6 +2,7 @@ import ft1 from "../assets/ft1.png";
 import ft2 from "../assets/ft2.png";
 import ft3 from "../assets/ft3.png";
 // import ftbg from "../assets/x-logo.svg";
+import herobg from "../assets/herobg.svg";
 
 import { Reveal } from "../utils/Reveal";
 
@@ -34,6 +35,12 @@ function Features() {
    bg-ftbgpos bg-ftbgsize sm:bg-repeat-x"
       // style={{ backgroundImage: `url(${ftbg})` }}
     >
+      <div
+        className="w-full h-auto absolute bottom-[100%] left-0 z-0"
+        // style={{ backgroundImage: `url(${herobg})` }}
+      >
+        <img className="z-0" src={herobg} alt="" />
+      </div>
       {featureData.map((feature, index) => (
         <div
           key={index}
